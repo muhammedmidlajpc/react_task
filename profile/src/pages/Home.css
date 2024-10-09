@@ -1,0 +1,39 @@
+.nav{
+    background-color: aqua;
+    /* position: absolute; */
+    
+}
+.text{
+    position: relative;
+    left: 10px;
+}
+.left{
+    width: 400px;
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    
+}
+.right{
+    background-color: blue;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.main{
+    display: flex;
+}
+.profile{
+    /* display: flex;
+    flex-direction: column; */
+}
+.r-u{
+    display: flex;
+    
+}
+.john{
+    /* display: flex; */
+}
+.link{   
+    text-decoration: none;
+}

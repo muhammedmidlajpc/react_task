@@ -1,0 +1,51 @@
+.profile {
+  display: flex;
+  background-color: red;
+  flex-direction: column;
+  height: 500px;
+  position: relative;
+  text-align: left;
+  width: 500px;
+  font-family:'Times New Roman', Times, serif
+}
+.p-h {
+  margin-top: 20px;
+  margin-left: 30px;
+  background-color: aqua;
+}
+.r-u {
+  display: flex;
+  padding-top: 60px;
+  gap: 50px;
+  margin-left: 30px;
+  background-color: aquamarine;
+  position: relative;
+  height: 100px;
+}
+.bio {
+  margin-left: 30px;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  
+}
+.john {
+  background-color: blanchedalmond;
+  position: absolute;
+  top: 40px;
+  left: 130px;
+}
+.img {
+  position: absolute;
+  top: 10px;
+}
+.btn {
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  background-color: #3b82f6;
+  height: 50px;
+  width: 150px;
+  font-size: large;
+  color: white;
+}
