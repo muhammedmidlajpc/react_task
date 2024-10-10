@@ -1,0 +1,79 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.div2 {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 340px;
+  gap: 10px;
+  height: 500px;
+  background-color: rgb(236, 231, 224);
+  /* background-image: linear-gradient(to bottom right, green, yellow); */
+}
+.h1 {
+  margin-left: 70px;
+  color: rgb(5, 49, 5);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 35px;
+  border-radius: 15px;
+  border-style: none;
+}
+.inp1 {
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 250px;
+  margin-left: 35px;
+  border-radius: 15px;
+  border-style: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(222, 232, 222),
+    rgba(144, 170, 144, 0.804)
+  );
+}
+.inp1:hover {
+  background-color: rgb(209, 207, 207);
+}
+.inp2:hover {
+  background-color: rgb(209, 207, 207);
+}
+
+.lab2 {
+  background-color: beige;
+  padding: 10px;
+  margin-top: 10px;
+  padding-left: 90px;
+  padding-right: 105px;
+  margin-left: 35px;
+  border-radius: 15px;
+  background-color: rgb(208, 208, 68);
+  background-image: linear-gradient(
+    to right,
+    rgb(5, 49, 5),
+    rgba(30, 158, 30, 0.804)
+  );
+  color: white;
+}
+.inp2 {
+  padding: 10px;
+  margin-top: 20px;
+  width: 250px;
+  margin-bottom: 10px;
+  margin-left: 35px;
+  border-radius: 15px;
+  border-style: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(222, 232, 222),
+    rgba(144, 170, 144, 0.804)
+  );
+}
