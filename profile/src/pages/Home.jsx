@@ -12,12 +12,10 @@ const Home = () => {
   // const { user, handleUser } = useContext(Usercontext);
   // const [count, setCount] = useState(2);
   // console.log(user);
-
   // const handleClick = () => {
   //   handleUser(count);
   //   setCount(count + 1);
   // };
-
   return (
     <div>
       {/* <button onClick={handleClick}>change user</button>
@@ -32,5 +30,4 @@ const Home = () => {
     </div>
   );
 };
-
 export default Home;

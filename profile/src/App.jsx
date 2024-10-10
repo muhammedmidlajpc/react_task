@@ -1,6 +1,4 @@
-import "./App.css";
-import { BrowserRouter } from "react-router-dom";
-import { Route, Routes } from "react-router-dom";
+import { Form, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Message from "./pages/Message";
 import Settings from "./pages/Settings";
@@ -20,5 +18,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
