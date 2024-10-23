@@ -17,7 +17,7 @@ const Home = () => {
   //   setCount(count + 1);
   // };
   return (
-    <div>
+    <div className="outmain">
       {/* <button onClick={handleClick}>change user</button>
       <h1>{user}</h1> */}
       <Nave />

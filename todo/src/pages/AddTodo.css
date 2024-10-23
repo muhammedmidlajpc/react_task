@@ -1,0 +1,44 @@
+.f-div{
+    /* box-shadow: 1px 2px 1px 2px rgb(99, 97, 97); */
+    /* position:fixed; */
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* padding-bottom: 10px; */
+    height: 200px;
+}
+.task-inpt{
+    border-style: none;
+    height: 40px;
+    border-radius: 8px;
+
+}
+.task-inpt:hover{
+    border: 1px solid rgb(183, 16, 192);
+    height: 38px;
+    width: 160px;
+}
+.task-inpt::placeholder{
+    padding: 10px;
+}
+
+.todo{
+    overflow: scroll;
+    scrollbar-width: none;
+    background-color: rgb(135, 164, 189);
+    height: 500px;
+    width: 400px;
+    border-radius: 5%;
+    position: relative;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.h1-txt{
+    display: flex;
+    justify-content: center;
+    /* position: fixed; */
+}

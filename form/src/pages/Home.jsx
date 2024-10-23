@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { Link, Outlet, Route, Routes } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 // import "./Home.css";
 import Form from "../components/form/Form";
 // import { Usercontext } from "../App";
@@ -31,10 +31,11 @@ const Home = () => {
           alignItems: "center",
         }}
       >
-        {/* <Link to={<Form/>}>
+        <Link to='/form'>
      <h1>form</h1>
-     </Link> */}
+     </Link>
      <h1>form</h1>
+     <Outlet/>
       </div>
     </div>
   );
