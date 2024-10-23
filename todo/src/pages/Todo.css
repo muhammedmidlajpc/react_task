@@ -62,7 +62,9 @@
   text-transform: capitalize;
   color: aliceblue;
 }
-
+button:focus{
+  outline: none;
+}
 .editinptm {
   border-style: none;
   outline: none;

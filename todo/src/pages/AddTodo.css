@@ -23,13 +23,16 @@
 }
 
 .todo{
-    overflow: scroll;
-    scrollbar-width: none;
+    /* overflow: scroll; */
     background-color: rgb(135, 164, 189);
     height: 500px;
+    display: flex;
+    flex-direction: column;
     width: 400px;
     border-radius: 5%;
     position: relative;
+    overflow: hidden;
+    
 }
 .form{
     display: flex;
@@ -41,4 +44,14 @@
     display: flex;
     justify-content: center;
     /* position: fixed; */
+}
+.todo-list{
+    overflow: auto;
+    height:100% ;
+}
+.todo-list::-webkit-scrollbar{
+    width: 5px;
+}
+.todo-list::-webkit-scrollbar-thumb{
+ background-color: rebeccapurple;
 }
