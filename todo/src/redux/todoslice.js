@@ -28,8 +28,14 @@ const todoSlice = createSlice({
 
       state.push({ id: nanoid(), text: action.payload });
     },
-    deleteTodo: (state, action) =>
-      state.filter((todos) => todos.id !== action.payload),
+    deleteTodo: (state, action) =>{
+      const farray = state.filter((todos) => todos.id !== action.payload)
+      state.length=0
+      state.push(...farray)
+
+    },
+      
+
 
     editTodo: (state, action) => {
       state = state.map((todos) => {

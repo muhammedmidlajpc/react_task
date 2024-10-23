@@ -18,8 +18,8 @@
     height: 38px;
     width: 160px;
 }
-.task-inpt::placeholder{
-    padding: 10px;
+.task-inpt{
+    padding-left: 10px;
 }
 
 .todo{
